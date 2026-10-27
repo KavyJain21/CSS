@@ -1,0 +1,35 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation-name: wide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction:normal ;
+}
+@keyframes fontAnime{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+@keyframes bgc{
+    from{
+        background-color: blue;
+    }to{
+        background-color: rebeccapurple;
+    }
+}
+@keyframes wide{
+    0%{
+        width: 10px;
+    }50%{
+        width: 40px;
+    }100%{
+        width: 60px;
+    }
+}
